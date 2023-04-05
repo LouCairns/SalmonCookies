@@ -85,10 +85,16 @@ p {
 
 /* RESPONSIVE IMAGE GALLERY TEST */
 
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .image-gallery-container {
   margin: 30px;
   padding: 30px;
   background-color: #cdeac0;
+  align-items: flex-end;
 }
 
 div.gallery {
@@ -136,4 +142,8 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.desc {
+  margin-top: 20px;
 }
